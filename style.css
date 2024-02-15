@@ -1,0 +1,106 @@
+a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.titulo{
+    text-align: center;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu{
+    margin-top: -25px;
+    text-align: center;
+    color: royalblue;
+}
+
+.primerdiv{
+    background-color: lightpink;
+}
+
+.segundodiv{
+    background-color: aliceblue;
+}
+
+.divinferior{
+    background-color: yellow;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.pinferior{
+    text-align: center;
+    color: blue;
+}
+
+.imagen1{
+    height: 400px;
+    width: 400px;
+    margin-top: 5px;
+}
+.imagen2{
+    
+    height: 400px;
+    width: 400px;
+    vertical-align: -50px;
+}
+.imagen3{
+    height: 400px;
+    width: 400px;
+    vertical-align: -100px;
+    
+}
+
+.divgrande{
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 100px;
+}
+
+.divimagen1{
+    background-color: lightsalmon;
+    margin-left: 350px;
+}
+
+.divimagen2{
+    background-color: lightseagreen;
+    margin-bottom: -100px;
+
+}
+.divimagen3{
+    background-color: lightsalmon;
+
+    margin-bottom: -200px
+}
+
+
+.segundodivgrande{
+    margin-top: 50px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.formulario{
+    height: 200px;
+    width: 300px;
+    color: blue;
+    background-color: lightsalmon;
+    margin-left: 600px;
+    margin-right: 100px;
+}
+
+.nominados{
+    width: 300px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.peliculas{
+    color: blue;
+}
+
+li{
+    color: yellow;
+}

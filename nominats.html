@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AplicacionsWebRiseDuran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="primerdiv">
+        <h1 class="titulo">Premis GOYA</h1>
+        </div>
+        <div class="segundodiv">
+        <p class="menu"><a href="index.html">Edicions Anteriors-</a><a href="nominats.html">Nominats-</a><a href="index.html">Contacte</a></p>
+        </div>
+
+<div onload="mensaje()"></div>
+
+<div class="segundodivgrande">
+
+        <div class="formulario">
+        <form action="envio.php">
+            <h3>Premi Goya Millor pel.licula</h3>
+            <br>
+            Nom <input type="text">
+            <br>
+            Cognoms <input type="text">
+            <br>
+            e-mail <input type="text">
+            <br>
+            Millor pel.licula<select name="seleccion"></select>
+            <hr>
+            <input type="submit" value="votar">
+            <input type="reset" value="borrar">
+
+        
+
+        </form>
+        </div>
+        <br>
+
+        <div class="nominados">
+            <h3 class="peliculas">Pel.licules nominades</h3>
+            <ol>
+             <li>La societat de la neu</li>
+            <li>Cerrar los ojos</li>
+            <li>Saben aquell</li>
+            <li>20.000 espècies d'abelles</li>
+            </ol>
+            <br>
+
+
+ </div>
+
+</body>
+
+<script>
+    function mensaje() {
+        alert='vota per la teua peli favorita'
+    }
+
+ </script>
+
+</html>
